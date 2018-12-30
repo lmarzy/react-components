@@ -1,9 +1,10 @@
 // ========================================================================
-// FEATURES/HOME
+// TOOLS/FUNCTIONS/GET-SPACER
 // ========================================================================
 
-@import '~sassHelpers';
+// usage
+// spacer(4);
 
-.home {
-  background: color(colRed);
+@function spacer($val) {
+  @return get-value($val, $spacers);
 }

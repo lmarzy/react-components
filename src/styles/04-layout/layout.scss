@@ -1,9 +1,6 @@
 // ========================================================================
-// FEATURES/HOME
+// 04-LAYOUT/IMPORTS
 // ========================================================================
 
-@import '~sassHelpers';
-
-.home {
-  background: color(colRed);
-}
+@import 'container';
+@import 'grid';

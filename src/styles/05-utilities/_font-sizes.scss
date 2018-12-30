@@ -1,9 +1,9 @@
 // ========================================================================
-// FEATURES/HOME
+// UTILITIES/FONT-SIZES
 // ========================================================================
 
-@import '~sassHelpers';
-
-.home {
-  background: color(colRed);
+@each $key, $value in $font-sizes {
+  .u-fs-#{$key} {
+    font-size: $value !important;
+  }
 }

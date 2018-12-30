@@ -1,9 +1,9 @@
 // ========================================================================
-// FEATURES/HOME
+// LAYOUT/CONTAINER
 // ========================================================================
 
-@import '~sassHelpers';
-
-.home {
-  background: color(colRed);
+.l-container {
+  max-width: $max-width;
+  margin-left: auto;
+  margin-right: auto;
 }

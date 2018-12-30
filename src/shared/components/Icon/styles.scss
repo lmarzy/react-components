@@ -1,9 +1,17 @@
 // ========================================================================
-// FEATURES/HOME
+// SHARED/COMPONENTS/ICON
 // ========================================================================
 
 @import '~sassHelpers';
 
-.home {
-  background: color(colRed);
+.icon {
+  display: inline-block;
+}
+
+.white {
+  fill: white;
+}
+
+.red {
+  fill: red;
 }

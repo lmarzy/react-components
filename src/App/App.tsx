@@ -1,29 +1,18 @@
 import * as React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import 'kickstart-sass';
+import '../styles/main.scss';
 
 import Home from '../features/Home/Home';
 import About from '../features/About/About';
+import RenderProps from '../features/Render-Props/Render-Props';
 
-interface AppProps {
-  a: string;
-  b: number;
-}
-
-const App = ({ a, b }: AppProps) => (
+const App = () => (
   <Router>
     <>
-      <ul data-testid="nav">
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-      </ul>
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
+      <Route path="/render-props" component={RenderProps} />
     </>
   </Router>
 );

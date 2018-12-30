@@ -1,9 +1,6 @@
 // ========================================================================
-// FEATURES/HOME
+// TOOLS/IMPORTS
 // ========================================================================
 
-@import '~sassHelpers';
-
-.home {
-  background: color(colRed);
-}
+@import 'functions/functions';
+@import 'mixins/mixins';

@@ -13,19 +13,20 @@
     "precommit": "pretty-quick --staged"
   },
   "alias": {
-    "sassHelpers": "./node_modules/kickstart-sass/src/01-helpers/helpers.scss",
-    "sass": "./node_modules/kickstart-sass/src/main.scss"
+    "sassHelpers": "./src/styles/01-helpers/helpers.scss"
   },
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "styled-components": "^4.1.3"
   },
   "devDependencies": {
     "@types/jest": "^23.3.10",
     "@types/react": "^16.7.17",
     "@types/react-dom": "^16.0.11",
     "@types/react-router-dom": "^4.3.1",
+    "@types/styled-components": "^4.1.4",
     "husky": "^1.2.1",
     "jest": "^23.6.0",
     "lint-staged": "^8.1.0",

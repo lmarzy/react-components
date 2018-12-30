@@ -1,9 +1,8 @@
 // ========================================================================
-// FEATURES/HOME
+// 05-UTILITIES/IMPORTS
 // ========================================================================
 
-@import '~sassHelpers';
-
-.home {
-  background: color(colRed);
-}
+@import 'font-sizes';
+@import 'spacers';
+@import 'colours';
+@import 'visibility';

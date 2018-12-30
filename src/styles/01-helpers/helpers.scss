@@ -1,9 +1,6 @@
 // ========================================================================
-// FEATURES/HOME
+// 01-HELPERS/IMPORTS
 // ========================================================================
 
-@import '~sassHelpers';
-
-.home {
-  background: color(colRed);
-}
+@import 'settings/settings';
+@import 'tools/tools';

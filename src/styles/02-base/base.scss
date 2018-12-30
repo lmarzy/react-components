@@ -1,9 +1,7 @@
 // ========================================================================
-// FEATURES/HOME
+// 02-BASE/IMPORTS
 // ========================================================================
 
-@import '~sassHelpers';
-
-.home {
-  background: color(colRed);
-}
+@import 'box-sizing';
+@import 'reset';
+@import 'normalise';

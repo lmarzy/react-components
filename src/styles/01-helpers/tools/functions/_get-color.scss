@@ -1,9 +1,10 @@
 // ========================================================================
-// FEATURES/HOME
+// TOOLS/FUNCTIONS/GET-COLOUR
 // ========================================================================
 
-@import '~sassHelpers';
+// usage
+// color(red);
 
-.home {
-  background: color(colRed);
+@function color($val) {
+  @return get-value($val, $colors);
 }
